@@ -1,0 +1,27 @@
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #003f24;
+  text-shadow: none; 
+  border: .05rem solid #a8a8a8;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: rgba(85, 87, 85, 0.645);
+}
+
+
+.card {
+  margin: 0 auto; 
+  float: none; 
+  margin-top: 50px;
+  margin-bottom: 10px; 
+  font-size: medium;
+  }
+
+
+

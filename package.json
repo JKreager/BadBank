@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "node.js": "^0.0.1-security"
+  },
+  "name": "badbankfinal",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd public && npm install && npm run build",
+    "start": "node index.js"
+    
+  },
+  "author": "sowmyashree",
+  "license": "MIT",
+   "engines": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
+  }
+ 
+}
